@@ -20,7 +20,15 @@
     ],
     "baseUrl": ".",
     "paths": {
-      "@/*": ["./*"]
+      "@/*": ["../../*"],
+      "@/app/*": ["app/*"],
+      "@/pages/*": ["pages/*"],
+      "@/components/*": ["components/*"],
+      "@/styles/*": ["styles/*"],
+      "@/public/*": ["public/*"],
+      "@/lib/*": ["lib/*"],
+      
+
     }
   },
   "include": [
